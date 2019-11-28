@@ -34,7 +34,7 @@ def delDisk(tower):
 	return
 
 def initHanoi():
-	# Add all disk in first tower
+	# Add all disks in first tower
 	for line in range(lines):
 		for n in range(line+1):
 			tower1[line][middle-n] = '*'
